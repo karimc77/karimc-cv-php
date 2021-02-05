@@ -1,0 +1,399 @@
+@import  url (https://fonts.googleapis.com/css?family=Varela+Round);
+ @import  url (https://fonts.googleapis.com/css?family=Open+Sans:400 , 300 , 600 , 700 );
+ * ,  * :: après ,  * :: avant {
+	 box-dimensionnement : border-box;
+}
+ html ,  corps {
+	 hauteur : 100 % ;
+}
+ corps {
+	 font-family : 'Open Sans' , sans-serif;
+	 taille de la police : 16 px ;
+	 hauteur de ligne : 1,5 em ;
+}
+ a {
+	 couleur : # 6c9 ;
+	 texte-décoration : aucun;
+}
+. clearfix :: après , . clearfix :: avant {
+	 contenu : "" ;
+	 affichage : table;
+}
+. clearfix :: après {
+	 clair : les deux;
+}
+. gras {
+	 couleur : # 4a4e51 ;
+	 poids de la police : 400 ;
+}
+. CV-wrapper {
+	 position : relative;
+	 text-align : centre;
+	 hauteur : 100 % ;
+}
+. conteneur {
+	 hauteur min : 600 px ;
+}
+. profil {
+	 arrière - plan : # fff ;
+	 largeur : 40 % ;
+	 float : gauche;
+	 couleur : # 9099a0 ;
+}
+ @media ( largeur maximale : 850 px ) {
+	 . profil {
+		 largeur : 100 % ;
+	}
+}
+. profil . nom-wrapper {
+	 float : gauche;
+	 largeur : 60 % ;
+}
+. profil  h1 {
+	 taille de la police : 2,5 em ;
+	 text-align : gauche;
+	 famille de polices : 'Varela Round' , sans-serif;
+	 couleur : # 4a4e51 ;
+	 text-transform : majuscule;
+	 hauteur de ligne : 1 em ;
+	 haut du rembourrage : 40 px ;
+}
+ @media ( largeur maximale : 1 200 px ) {
+	 . profil  h1 {
+		 padding-top : 20 px ;
+	}
+}
+ @media ( largeur maximale : 450 px ) {
+	 . profil  h1 {
+		 taille de la police : 1,8 em ;
+		 padding-top : 20 px ;
+	}
+}
+. profil  li {
+	 marge inférieure : 10 px ;
+}
+. profil . image-résumé-wrapper {
+	 largeur : 40 % ;
+	 affichage : bloc;
+	 float : gauche;
+}
+ @media ( largeur maximale : 1 200 px ) {
+	 . profil . image-résumé-wrapper {
+		 largeur : 100 % ;
+	}
+}
+. profil . image-CV {
+	 largeur : 220 px ;
+	 hauteur : 220 px ;
+	 background-size : couverture;
+	 rayon de la frontière : 50 % ;
+	 marge droite : 0 px ;
+	 affichage : table;
+	 position : relative;
+	 alignement vertical : milieu;
+}
+. profil . durée de la reprise d'image  {
+	 affichage : table-cellule;
+	 alignement vertical : milieu;
+	 position : relative;
+	 marge : 0 auto;
+	 indice z : 10 ;
+	 text-align : centre;
+}
+. profil . image-CV  img {
+	 rayon de la frontière : 50 % ;
+	 largeur : 130 px ;
+}
+ @media ( largeur maximale : 1500 px ) {
+	 . profil . image-CV  img {
+		 largeur : 80 px ;
+	}
+}
+ @media ( largeur maximale : 1 200 px ) {
+	 . profil . image-CV  img {
+		 largeur : 120 px ;
+		 hauteur : 120 px ;
+	}
+}
+ @media ( largeur maximale : 1500 px ) {
+	 . profil . image-CV {
+		 largeur : 150 px ;
+		 hauteur : 150 px ;
+	}
+}
+ @media ( largeur maximale : 1 200 px ) {
+	 . profil . image-CV {
+		 largeur : 200 px ;
+		 hauteur : 200 px ;
+	}
+}
+ @media ( largeur maximale : 450 px ) {
+	 . profil . image-CV {
+		 largeur : 180 px ;
+		 hauteur : 180 px ;
+	}
+}
+. profil . contact-info {
+	 margin-top : 100 px ;
+	 poids de la police : 300 ;
+}
+ @media ( largeur maximale : 1 200 px ) {
+	 . profil . contact-info {
+		 marge supérieure : 70 px ;
+	}
+}
+ @media ( largeur maximale : 450 px ) {
+	 . profil . contact-info {
+		 margin-top : 50 px ;
+	}
+}
+. profil . list-title {
+	 float : gauche;
+	 text-align : gauche;
+	 poids de la police : 600 ;
+	 largeur : 40 % ;
+	 couleur : # 4a4e51 ;
+}
+. profil . list-content {
+	 float : gauche;
+	 largeur : 60 % ;
+	 text-align : gauche;
+	 poids de la police : 300 ;
+}
+. profil . contact-presentation {
+	 text-align : gauche;
+	 poids de la police : 300 ;
+	 margin-top : 100 px ;
+	 marge inférieure : 100 px ;
+}
+ @media ( largeur maximale : 1 200 px ) {
+	 . profil . contact-presentation {
+		 marge supérieure : 70 px ;
+		 marge inférieure : 70 px ;
+	}
+}
+ @media ( largeur maximale : 850 px ) {
+	 . profil . contact-presentation {
+		 margin-top : 50 px ;
+		 marge inférieure : 50 px ;
+	}
+}
+. profil  svg {
+	 largeur : 100 % ;
+	 position : absolue;
+	 haut : 0 ;
+	 gauche : 0 ;
+}
+. profil . st0 , . profil . st1 {
+	 remplir : # 6c9 ;
+}
+. expérience {
+	 arrière - plan : # 3d3e42 ;
+	 largeur : 60 % ;
+	 float : gauche;
+	 position : relative;
+	 couleur : # 9099a0 ;
+	 poids de la police : 300 ;
+	 hauteur min : 100 % ;
+	 hauteur min : 100 vh ;
+}
+ @media ( largeur maximale : 850 px ) {
+	 . expérience {
+		 largeur : 100 % ;
+	}
+}
+. expérience  h3 . experience-title {
+	 couleur : # 6c9 ;
+	 text-align : gauche;
+	 text-transform : majuscule;
+	 taille de la police : 1,2 em ;
+	 marge inférieure : 20 px ;
+	 poids de la police : 400 ;
+}
+. expérience . entreprise-wrapper {
+	 largeur : 30 % ;
+	 float : gauche;
+	 text-align : gauche;
+	 padding-right : 5 % ;
+	 marge inférieure : 60 px ;
+}
+ @media ( largeur maximale : 450 px ) {
+	 . expérience . entreprise-wrapper {
+		 largeur : 100 % ;
+		 marge inférieure : 20 px ;
+	}
+}
+. expérience . job-wrapper {
+	 largeur : 70 % ;
+	 float : gauche;
+	 text-align : gauche;
+	 padding-right : 5 % ;
+	 marge inférieure : 60 px ;
+}
+ @media ( largeur maximale : 450 px ) {
+	 . expérience . job-wrapper {
+		 largeur : 100 % ;
+		 marge inférieure : 40 px ;
+	}
+}
+. expérience . experience-title {
+	 couleur : blanc;
+	 marge inférieure : 15 px ;
+}
+. section-padding {
+	 rembourrage : 60 px  60 px  40 px  40 px ;
+}
+ @media ( largeur maximale : 850 px ) {
+	 . section-padding {
+		 rembourrage : 80 px  15 %  40 px  10 % ;
+	}
+}
+ @media ( largeur maximale : 450 px ) {
+	 . section-padding {
+		 remplissage : 40 px  10 %  20 px  5 % ;
+	}
+}
+. section-wrapper {
+	 largeur : 50 % ;
+	 float : gauche;
+	 text-align : gauche;
+	 couleur : # 9099a0 ;
+	 poids de la police : 300 ;
+	 marge inférieure : 20 px ;
+}
+ @media ( largeur maximale : 450 px ) {
+	 . section-wrapper {
+		 largeur : 100 % ;
+	}
+}
+. section-wrapper : nth-child ( 3 ) {
+	 padding-right : 8 % ;
+}
+. section-wrapper  h3 . titre-section {
+	 couleur : # 6c9 ;
+	 text-align : gauche;
+	 text-transform : majuscule;
+	 taille de la police : 1,2 em ;
+	 marge inférieure : 20 px ;
+	 poids de la police : 400 ;
+}
+. section-wrapper . skill-pourcentage {
+	 marge inférieure : 10 px ;
+	 position : relative;
+}
+. section-wrapper . skill-pourcentage :: après {
+	 contenu : "" ;
+	 largeur : 100 % ;
+	 hauteur : 6 px ;
+	 arrière - plan : # 4a4e51 ;
+	 affichage : bloc;
+	 margin-top : 3 px ;
+}
+. section-wrapper . skill-pourcentage :: avant {
+	 contenu : "" ;
+	 hauteur : 6 px ;
+	 arrière - plan : # 6c9 ;
+	 position : absolue;
+	 margin-top : 3 px ;
+	 bas : 0 ;
+}
+. section-wrapper . skill-pourcentage : nth-child ( 1 ) :: before {
+	 largeur : 80 % ;
+	 animation : skill_1 0,6 s facilité;
+}
+. section-wrapper . skill-pourcentage : nth-child ( 2 ) :: before {
+	 largeur : 90 % ;
+	 animation : skill_2 0,6 s facilité;
+}
+. section-wrapper . skill-pourcentage : nth-child ( 3 ) :: before {
+	 largeur : 50 % ;
+	 animation : skill_3 0,6 s facilité;
+}
+. section-wrapper . skill-pourcentage : nth-child ( 4 ) :: before {
+	 largeur : 60 % ;
+	 animation : skill_4 0,6 s facilité;
+}
+. section-wrapper . skill-pourcentage : nth-child ( 5 ) :: before {
+	 largeur : 95 % ;
+	 animation : skill_5 0,6 s facilité;
+}
+. section-wrapper . skill-pourcentage : nth-child ( 6 ) :: before {
+	 largeur : 70 % ;
+	 animation : skill_6 0,6 s facilité;
+}
+. section-wrapper . skill-pourcentage : nth-child ( 7 ) :: before {
+	 largeur : 50 % ;
+	 animation : skill_6 0,6 s facilité;
+}
+. section-wrapper . skill-pourcentage : nth-child ( 8 ) :: before {
+	 largeur : 50 % ;
+	 animation : skill_6 0,6 s facilité;
+}
+. section-wrapper . skill-pourcentage : nth-child ( 9 ) :: before {
+	 largeur : 40 % ;
+	 animation : skill_6 0,6 s facilité;
+}
+. section-wrapper . skill-pourcentage : nth-child ( 10 ) :: before {
+	 largeur : 30 % ;
+	 animation : skill_6 0,6 s facilité;
+}
+. section-wrapper . skill-pourcentage : nth-child ( 11 ) :: before {
+	 largeur : 30 % ;
+	 animation : skill_6 0,6 s facilité;
+}
+ @keyframes skill_1 {
+	 de {
+		 largeur : 0 % ;
+	}
+	 à {
+		 largeur : 80 % ;
+	}
+}
+ @keyframes skill_2 {
+	 de {
+		 largeur : 0 % ;
+	}
+	 à {
+		 largeur : 90 % ;
+	}
+}
+ @keyframes skill_3 {
+	 de {
+		 largeur : 0 % ;
+	}
+	 à {
+		 largeur : 50 % ;
+	}
+}
+ @keyframes skill_4 {
+	 de {
+		 largeur : 0 % ;
+	}
+	 à {
+		 largeur : 60 % ;
+	}
+}
+ @keyframes skill_5 {
+	 de {
+		 largeur : 0 % ;
+	}
+	 à {
+		 largeur : 70 % ;
+	}
+}
+ @keyframes skill_6 {
+	 de {
+		 largeur : 0 % ;
+	}
+	 à {
+		 largeur : 70 % ;
+	}
+}
+ @keyframes skill_7 {
+	 de {
+		 largeur : 0 % ;
+	}
+	 à {
+		 largeur : 70 % ;
+	}
+}
